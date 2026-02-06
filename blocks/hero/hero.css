@@ -31,8 +31,13 @@
   height: 100%;
 }
 
-@media (width >= 900px) {
+
+@media (min-width: 768px) {
   .hero {
     padding: 40px 32px;
+  }
+
+  .hero h1 {
+    margin-top: 12em;
   }
 }
