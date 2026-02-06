@@ -1,0 +1,10 @@
+{
+  "mappings": [
+    "/content/eds-blox-art/:/",
+    "/content/eds-blox-art/configuration:/.helix/config.json",
+    "/content/eds-blox-art/metadata:/metadata.json"
+  ],
+  "includes": [
+    "/content/eds-blox-art/"
+  ]
+}
