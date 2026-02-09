@@ -4,10 +4,13 @@
     gap: 24px;
 }
 
+.room-info .font-bold {
+    font-weight: bold;
+}
+
 @media (width >=768px) {
     .roomlist {
-        flex-direction: row;
-        flex-wrap: wrap;
+        flex-flow: row wrap;
     }
 
     .room {
