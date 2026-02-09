@@ -1,0 +1,16 @@
+.roomlist {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+@media (width >=768px) {
+    .roomlist {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .room {
+        flex: 0 0 calc(50% - 24px);
+    }
+}
