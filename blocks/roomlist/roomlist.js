@@ -36,6 +36,7 @@ export default async function decorate(block) {
               <div class="room-info">
                   <span class="font-bold">Room size</span>: ${roomSize}
               </div>
+              <a href=${url}>More info</a>
           </div>`;
       }
     });
