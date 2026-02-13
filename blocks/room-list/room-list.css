@@ -1,7 +1,8 @@
-.roomlist {
+.room-list {
     display: flex;
     flex-direction: column;
     gap: 24px;
+    min-height: 300px;
 }
 
 .room-info .font-bold {
@@ -9,7 +10,7 @@
 }
 
 @media (width >=768px) {
-    .roomlist {
+    .room-list {
         flex-flow: row wrap;
     }
 
