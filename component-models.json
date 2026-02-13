@@ -214,5 +214,17 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "roomlist",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "roomPagePath",
+        "label": "Room Root Page Path",
+        "value": ""
+      }
+    ]
   }
 ]
