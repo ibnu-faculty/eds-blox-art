@@ -1,10 +1,12 @@
 export default async function decorate(block) {
+  console.log(block);
   [...block.children].forEach((row) => {
     row.classList.add('room');
 
     const cols = [...row.children];
     cols.forEach(async (col) => {
       const url = col.textContent;
+      console.log(url);
       const response = await fetch(url);
 
       if (response.ok) {
